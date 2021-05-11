@@ -12,9 +12,9 @@ export default class AddOption extends React.Component {
 
     this.setState(() => ({ error }));
     
-    if(!error) {
+    if(!error || (option === e.target.elements.option.value.trim())) {
       e.target.elements.option.value = '';
-    }
+    } 
   };
 
   render() {
