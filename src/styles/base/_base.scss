@@ -3,7 +3,28 @@ html {
 }
 
 body {
-  background-color: $dark-blue;
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size;
+  letter-spacing: 0.2rem;
+}
+
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.line::before {
+  content: ' ';
+  position: absolute;
+  width: 90%;
+  height: 0.3rem;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: $light-blue;
 }

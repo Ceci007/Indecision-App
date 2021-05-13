@@ -20,7 +20,11 @@ module.exports = {
         'css-loader',
         'sass-loader'
       ]
-    }]
+    }, {
+      test: /\.(jpe?g|png)$/,
+      use: { loader: 'url-loader' }
+    },
+  ]
   },
   devtool: 'cheap-module-eval-source-map',
   devServer: {

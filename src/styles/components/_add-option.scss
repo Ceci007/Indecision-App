@@ -1,0 +1,44 @@
+.form-container {
+  position: relative;
+}
+
+.add-option-error {
+  color: white;
+  font-style: italic;
+  padding: $l-size $m-size 0 1.8rem;
+  margin-bottom: -0.5rem;
+}
+
+.add-option {
+  display: flex;
+  flex-direction: column;
+  padding: $m-size;
+}
+
+.add-option__input {
+  background-color: $dark-blue;
+  border: none;
+  border: 0.3rem solid white;
+  color: white;
+  flex-grow: 1;
+  height: 4rem;
+  margin: 0 0 $s-size 0;
+  text-indent: $s-size;
+  letter-spacing: 0.2rem;
+  border-radius: 0.8rem;
+}
+
+.add-option__input:focus {
+  outline: none;
+}
+
+
+@media (min-width: $desktop-breakpoint) {
+  .add-option {
+    flex-direction: row;
+  }
+
+  .add-option__input {
+    margin: 0 $s-size 0 0;
+  }
+}

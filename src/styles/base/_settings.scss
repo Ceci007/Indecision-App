@@ -1,9 +1,15 @@
 // Colors
-$off-black: #20222b;
-$off-white: #a5afd7;
-$dark-blue: #333745;
-
+$off-black: rgba(255,255,255, 0.7);
+$off-white: rgba(0,0,0, 0.6);
+$dark-blue: rgba(255,255,255, 0.3);
+$blue: rgba(255,255,255, 0.5);
+$light-blue: rgba(255,255,255, 0.2);
+$gradient: linear-gradient(to right top, #65dfc9, #6cdbeb);
+$purple-gradient: linear-gradient(to left bottom, #65dfc9, #6cdbeb);
+$purple: 	#6cdbeb;
 // Spacing
+$s-size: 1.2rem;
 $m-size: 1.6rem;
 $l-size: 3.2rem;
 $xl-size: 4.8rem;
+$desktop-breakpoint: 30rem;

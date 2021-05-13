@@ -1,0 +1,33 @@
+.option {
+  border: 0.3rem solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $m-size;
+  margin: $m-size;
+  background-color: $dark-blue;
+  border-radius: 0.8rem;
+  color: white;
+}
+
+.option__name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  word-break: break-all;
+}
+
+.option__number {
+  font-weight: bold;
+  margin-right: 1rem;
+  font-size: 1.8rem;
+  word-break: break-all;
+}
+
+.option__text {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: white;
+  word-break: break-all;
+}
