@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   transition: opacity 300ms ease-in-out;
+  z-index: 10;
 }
 
 
@@ -20,13 +21,13 @@
 
 .modal {
   background-color: $off-black;
-  color: white;
+  color: $off-white;
   max-width: 30rem;
   outline: none;
   padding: $l-size;
   text-align: center;
-  color: $purple;
   border-radius: 2rem;
+  z-index: 100;
 }
 
 .modal__title {

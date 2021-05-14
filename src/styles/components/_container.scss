@@ -2,4 +2,7 @@
   max-width: 60rem;
   margin: 0 auto;
   padding: 0 $m-size;
+  padding-bottom: $l-size;
+  position: relative;
+  z-index: 2;
 }

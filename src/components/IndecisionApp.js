@@ -69,6 +69,9 @@ export default class IndecisionApp extends React.Component {
       <div 
         style={{ backgroundImage: `url(${background})` }} 
         className="background-image">
+        <div className="circle1"></div>
+        <div className="circle2"></div>
+        <div className="circle3"></div>
         <Header subtitle={subtitle} />
         <div className="container">
           <Action 

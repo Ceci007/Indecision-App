@@ -1,0 +1,72 @@
+.circle1,
+.circle2,
+.circle3 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.1)
+  );
+  height: 40rem;
+  width: 40rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+  top: 10%;
+  right: 26%;
+  z-index: 1;
+  animation-delay: 1ms;
+  animation: animate 5s linear infinite;
+}
+
+.circle2 {
+  bottom: 20%;
+  left: 25%;
+  z-index: 3;
+  animation-delay: 1ms;
+  animation: animate 5s linear infinite;
+}
+
+.circle3 {
+  bottom: 20%;
+  left: 50%;
+  width: 20rem;
+  height: 20rem;
+  z-index: 3;
+  animation-delay: 2ms;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0%, 100% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+}
+
+@media (max-width: 50rem) {
+  .circle1,
+  .circle2,
+  .circle3 {
+    z-index: 2;
+  }
+
+  .circle1 {
+    top: 5%;
+    right: 5%;
+  }
+
+  .circle2 {
+    bottom: 1rem;
+    left: 5%;
+  }
+
+  .circle3 {
+    bottom: 1rem;
+    left: 10%;
+  }
+}

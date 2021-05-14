@@ -1,9 +1,10 @@
 // Widget
 .widget {
   background-color: $light-blue;
-  margin-bottom: $xl-size;
+  padding-bottom: $m-size;
   border-radius: 2rem;
   overflow: hidden;
+  backdrop-filter: blur(2rem);
 }
 
 .widget__message {
@@ -21,11 +22,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  backdrop-filter: blur(2rem);
 }
 
 .widget-header__title {
   margin: 0;
-  font-weight: 500;
-  font-size: 2.4rem;
-  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+  color: $off-white;
 }
+

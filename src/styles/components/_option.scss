@@ -1,5 +1,5 @@
 .option {
-  border: 0.3rem solid white;
+  border: 0.3rem solid rgba(255,255,255,0.6);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +8,7 @@
   background-color: $dark-blue;
   border-radius: 0.8rem;
   color: white;
+  backdrop-filter: blur(7rem);
 }
 
 .option__name {
@@ -22,12 +23,13 @@
   font-weight: bold;
   margin-right: 1rem;
   font-size: 1.8rem;
+  color: $off-white;
   word-break: break-all;
 }
 
 .option__text {
   font-weight: 500;
   font-size: 1.8rem;
-  color: white;
+  color: $off-white;
   word-break: break-all;
 }

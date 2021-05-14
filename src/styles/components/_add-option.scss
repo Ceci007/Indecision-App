@@ -18,20 +18,23 @@
 .add-option__input {
   background-color: $dark-blue;
   border: none;
-  border: 0.3rem solid white;
-  color: white;
+  border: 0.3rem solid rgba(255,255,255,0.6);
+  color: $off-white;
   flex-grow: 1;
   height: 4rem;
   margin: 0 0 $s-size 0;
   text-indent: $s-size;
   letter-spacing: 0.2rem;
   border-radius: 0.8rem;
+  transition: 0.2s ease-out;
+  backdrop-filter: blur(7rem);
 }
 
 .add-option__input:focus {
+  box-shadow: inset 0px 1px 8px rgba(255, 255, 255, 0.2), 0 0 4rem rgba(255,255,255, 0.3);
   outline: none;
+  border: 0.3rem solid white;
 }
-
 
 @media (min-width: $desktop-breakpoint) {
   .add-option {
