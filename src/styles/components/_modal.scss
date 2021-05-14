@@ -1,13 +1,18 @@
 .ReactModalPortal > div {
   opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 
 .ReactModalPortal .ReactModal__Overlay {
-  align-items: center;
   display: flex;
   justify-content: center;
+  align-items: center;
   transition: opacity 300ms ease-in-out;
   z-index: 10;
+  width: 100vw;
 }
 
 
