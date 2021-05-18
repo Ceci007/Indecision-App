@@ -13,6 +13,7 @@
   display: flex;
   flex-direction: column;
   padding: $m-size;
+  position: relative;
 }
 
 .add-option__input {
