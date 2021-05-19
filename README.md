@@ -17,7 +17,7 @@ is an app that chooses an option between the options you provide as an input, so
 - 👤GitHub: https://github.com/Ceci007
 
 ## Show your support
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project
 
 ## Acknowledgments
 - Inspiration
